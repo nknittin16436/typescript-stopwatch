@@ -56,7 +56,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <h1>React Stopwatch</h1>
+      <h1>Typescript Stopwatch</h1>
       <Timer time={time} />
       <StartButton start={setRunning} state={running} num={num} setNum={setNum} />
       <StopButton stop={setRunning} state={running} num={num} />
