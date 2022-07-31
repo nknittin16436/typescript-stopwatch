@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  margin: 10vh 10px auto 10px;
+  padding-bottom: 10vh;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.timer {
+  text-align: center;
+  font-size: 4em;
+  margin: 1em auto;
+
+}
+
+span {
+  background: #00ABA9;
+  color: #fff;
+  display: inline-block;
+  font-family: monospace;
+  padding: 20px;
+  border-radius: 5px;
+  width: 70px;
+}
+
+.ms {
+  background-color: red;
+}
+
+button {
+  color: white;
+  border: 2px solid grey;
+  background-color: #00ABA9;
+  font-size: 2em;
+  margin: 10px;
+  padding: 30px 23px;
+  cursor: pointer;
+  border-radius: 40%;
+}
+
+button:hover {
+  background-color: rgb(84, 82, 82);
+  transition: 1s;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  background-color: #00ABA9;
+  justify-content: center;
+}
+
+.time p {
+  margin: 5px;
+  font-size: 2em;
+  background-color: #61dafb;
+  padding: 5px;
+}
+
+.disabled {
+  color: black;
+  background-color: white;
+  cursor: not-allowed;
+}
+
+
+
+@media screen and (max-width:780px) {
+
+  span {
+    padding: 15px;
+  }
+
+  .timer {
+    font-size: 3em;
+    margin: 0.7em auto;
+  }
+
+  button {
+    color: white;
+    border: 2px solid grey;
+    background-color: #00ABA9;
+    font-size: 1.5em;
+    margin: 8px;
+    padding: 25px 20px;
+
+  }
+}
+
+
+@media screen and (max-width:615px) {
+  span {
+    padding: 10px;
+  }
+
+  .timer {
+    font-size: 2em;
+    margin: 0.7em auto;
+  }
+
+  button {
+    color: white;
+    border: 2px solid grey;
+    background-color: #00ABA9;
+    font-size: 1em;
+    margin: 8px;
+    padding: 20px 15px;
+
+  }
+}
